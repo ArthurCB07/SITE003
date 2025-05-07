@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria - CAAT</title>
+  <meta name="description" content="Confira as fotos do clube CAAT." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <img src="fotos/logo-caat.png" alt="Logo CAAT" class="logo-img">
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu"><span class="hamburger"></span></button>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="atividades.html">Atividades</a></li>
+          <li><a href="galeria.html" class="active">Galeria</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="como.html">Como se Associar</a></li>
+          <li><a href="parceiro.html">Como ser Parceiro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container gallery-page">
+    <h2>Galeria de Fotos</h2>
+    <p>ㅤ</p>
+    <section class="gallery">
+      <img src="fotos/galeria1.jpeg" alt="Foto 1" class="pos-center">
+      <img src="fotos/galeria2.jpeg" alt="Foto 2" class="pos-center">
+      <img src="fotos/galeria3.jpeg" alt="Foto 3" class="pos-top">
+      <img src="fotos/galeria4.jpeg" alt="Foto 4" class="pos-center">
+      <img src="fotos/galeria5.jpeg" alt="Foto 5" class="pos-center">
+      <img src="fotos/galeria6.jpeg" alt="Foto 6" class="pos-center">
+      <img src="fotos/galeria7.jpeg" alt="Foto 7" class="pos-center">
+      <img src="fotos/galeria8.jpeg" alt="Foto 8" class="pos-bottom">
+      <img src="fotos/galeria9.jpeg" alt="Foto 9" class="pos-center">
+      <img src="fotos/galeria10.jpeg" alt="Foto 10" class="pos-center">
+    </section>
+  </main>
+
+  <div id="lightbox">
+    <button class="lightbox-close" aria-label="Fechar">×</button>
+    <button class="lightbox-prev" aria-label="Anterior">‹</button>
+    <img src="" alt="Preview" class="lightbox-img">
+    <button class="lightbox-next" aria-label="Próximo">›</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 CAAT. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
